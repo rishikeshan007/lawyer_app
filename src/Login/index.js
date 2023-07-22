@@ -32,7 +32,7 @@ const Login = () => {
                                         <AccountCircle />
                                     </InputAdornment>
                                 ),
-                                style: { width: '80%', marginTop: 30  }
+                                style: { width: '80%', marginTop: 30 }
                             }}
                             variant="standard"
                         />
@@ -47,10 +47,16 @@ const Login = () => {
                                         <AccountCircle />
                                     </InputAdornment>
                                 ),
-                                style: { width: '80%', marginTop: 30  }
+                                style: { width: '80%', marginTop: 30 }
                             }}
                             variant="standard"
                         />
+                        <br />
+                        <section>
+                            <button class='loginBtn'>LOGIN</button>
+                        </section>
+                        <br />
+                        <a href="www.google.com"> FORGET PASSWORD?</a>
                     </div>
                 </div>
             </section>

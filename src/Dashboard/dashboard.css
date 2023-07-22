@@ -1,0 +1,25 @@
+.accordionItem:hover {
+    box-shadow: rgb(170 180 190 / 30%) 0px 4px 20px;
+    background-color: rgb(243, 246, 249);
+    border-radius: 5px;
+}
+
+.sectionName {
+    padding: 20px;
+    margin: 0px 10px;
+}
+
+.sideIndicator {
+    height: 59px;
+    position: absolute;
+    background: lightgrey;
+    left: 7px;
+    width: 3px;
+}
+
+.sidePanelItem:hover {
+    box-shadow: rgba(108, 138, 169, 0.3) 0px 4px 20px;
+    background-color: rgb(243, 246, 249);
+    border-radius: 5px;
+    cursor: pointer;
+}
