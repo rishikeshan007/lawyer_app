@@ -2,6 +2,10 @@ import React from 'react'
 import { useState } from 'react'
 import IndustryLetterGenerator from '../IndustryLetter'
 import FMPeronsalStatement from '../FMPeronsalStatement'
+import CredibilityLetter from '../CredibilityLetter'
+import ITcritical from '../IT'
+import JudgeWork from '../Judgework'
+
 import './home.css'
 import SidePanel from './SidePanel'
 
@@ -9,7 +13,12 @@ const Home = () => {
     const [selectedLetter, setSelectedLetter] = useState('industry')
     const generatorToload = {
         industry: <IndustryLetterGenerator />,
-        finance: <FMPeronsalStatement />
+        finance: <FMPeronsalStatement />,
+        credibility:<CredibilityLetter/>,
+        critical: <ITcritical/>,
+        Law:<JudgeWork/>
+        
+        
     }
     return <div>
         <div className='header'>Jayabalaji</div>
